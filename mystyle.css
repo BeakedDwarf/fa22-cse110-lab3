@@ -1,0 +1,124 @@
+body{
+    background-color: powderblue;
+    display: inline;
+    position: fixed;
+}
+
+h1{
+    color: blue;
+    text-decoration: dashed;
+    text-align: center;
+    height: auto;
+    width: 30cm;
+    max-width: 60cm;
+    min-width: 10cm;
+}
+
+/* This is a single-line comment */
+p{
+    color: red;
+    display: block;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper{
+    font-size: 1em;
+}
+
+.cm{
+    width: 10cm;
+}
+
+.mm{
+    width: 100mm;
+}
+
+.px{
+    width: 200px;
+}
+
+.vw{
+    width: 10vw;
+}
+
+.em{
+    width: 10em;
+}
+
+.vmax{
+    width: 10vmax;
+}
+
+.box{
+    margin-top: -40px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 4em;
+    
+    margin: -40px 30px 40px 4em;
+    
+    padding-top: 0;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 4em;
+
+    padding: 0 30px 40px 4em;
+
+    border: 5px solid black;
+    border-style: dotted;
+    border-color: aliceblue;
+    border-width: 20px;
+    border-radius: 20px;
+}
+
+button:hover{
+    color: red;
+}
+
+button:active{
+    color: green;
+}
+
+.container{
+    display: flex;
+}
+
+.container{
+    display: grid;
+}
+
+@media (min-width: 30em) and (orientation: landscape){
+    /*
+    */
+}
+
+#unique{
+    color: aqua;
+}
+
+a[title]{
+
+}
+
+div p{
+    background-color: beige;
+}
+
+
+div > p{
+    background-color: yellow;
+}
+
+div ~ p{
+    background-color: azure;
+}
+
+div + p{
+    background-color: blueviolet;
+}
+
+element.class{
+    background-color: salmon;
+}
+
