@@ -2,13 +2,49 @@
 name: Lab 3 Week Tasks
 about: Stuff to do for Lab 3 Week
 title: ''
-labels: ''
-assignees: ''
+labels: enhancement
+assignees: BeakedDwarf
 
 ---
 
-Standup Notes
+Comment
 
-Pull Requests
+Color
 
-Add CSS to Meeting Minutes Notes
+Background
+
+Unit 
+
+Box Model
+
+Text
+
+Display
+
+Sizing
+
+Position
+
+Psuedo-class
+
+Layouts
+
+Responsiveness
+
+Fonts
+
+Class Selector
+
+ID Selector
+
+Universal Selector
+
+Element Selector
+
+Attribute Selector
+
+Pseudo-class Selector
+
+Selector List
+
+Combinators
